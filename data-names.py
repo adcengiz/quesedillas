@@ -23,7 +23,6 @@ datalinks = {"311requests": "user/bigdata/nyc_open_data/erm2-nwe9.json",\
 "taxi2015":"user/bigdata/nyc_open_data/ba8s-jw6u.json",\
 "taxi2016":"user/bigdata/nyc_open_data/k67s-dv2t.json"}
 
-
 ### Reading
 
 weather2011 = spark.read.option("multiline","true").json("../../"+ str(datalinks["weather2011"]))
@@ -131,4 +130,17 @@ taxi2016 = spark.read.option("multiline","true").json("../../"+ str(datalinks["t
 taxi2016.createOrReplaceTempView("taxi2016")
 taxi2016_data = taxi2016.select(taxi2016.data).collect()
 
-## ran all 
+## Other Read
+
+crime_all = spark.read.option("multiline","true").json("../../"+ str(datalinks["crime_data"]))
+crime_all.createOrReplaceTempView("crime_all")
+crime_all_data = crime_all.select(crime_all.data).collect()
+
+vehicle_collisions = spark.read.option("multiline","true").json("../../"+ str(datalinks["vehicle_collisions"]))
+vehicle_collisions.createOrReplaceTempView("vehicle_collisions")
+vehicle_collisions_data = vehicle_collisions.select(vehicle_collisions.data).collect()
+
+### Problem with the link, on it
+citibike = spark.read.json("../../"+ str(datalinks["citibike"]))
+citibike.createOrReplaceTempView("citibike")
+citibike_data = citibike.select(citibike.data).collect()
