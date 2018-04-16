@@ -1,11 +1,12 @@
-
+## Configuration
 module load python/gnu/3.4.4
 module load spark/2.2.0
 export PYSPARK_PYTHON=/share/apps/python/3.4.4/bin/python
 export PYTHONHASHSEED=0
 export SPARK_YARN_USER_ENV=PYTHONHASHSEED=0
-pyspark
+pyspark 
 
+## Which link corresponds to which dataset
 datalinks = {"311requests": "user/bigdata/nyc_open_data/erm2-nwe9.json",\
 "citibike": "user/bigdata/nyc_open_data/vsnr-94wk.json",\
 "crime_data": "user/bigdata/nyc_open_data/qgea-i56i.json",\
@@ -23,17 +24,7 @@ datalinks = {"311requests": "user/bigdata/nyc_open_data/erm2-nwe9.json",\
 "taxi2015":"user/bigdata/nyc_open_data/ba8s-jw6u.json",\
 "taxi2016":"user/bigdata/nyc_open_data/k67s-dv2t.json"}
 
-
 ### Reading
-
-weather2011 = spark.read.option("multiline","true").json("../../"+ str(datalinks["weather2011"]))
-## one row: weather2011.take(1)[0][0][2] ['3', 'F03F3C78-53A3-45DB-9B30-8AA7A272259B', '3', '1507146473', '994730', '1507146473', '994730', None, '1005760046', '60', '   5 AVENUE', 'MANHATTAN', '10011', 'Yes', '2036', None, None, None, '75', None, None, 'Office', '1', '1009620', '40.734773', '-73.994523', '2', '3', '63', '1009620', 'West Village'] 
-weather2012 = spark.read.option("multiline","true").json("../../"+ str(datalinks["weather2012"]))
-weather2013 = spark.read.option("multiline","true").json("../../"+ str(datalinks["weather2013"]))
-weather2014 = spark.read.option("multiline","true").json("../../"+ str(datalinks["weather2014"]))
-weather2015 = spark.read.option("multiline","true").json("../../"+ str(datalinks["weather2015"]))
-weather2016 = spark.read.option("multiline","true").json("../../"+ str(datalinks["weather2016"]))
-
 ## this one takes some time to read
 reqs311 = spark.read.option("multiline","true").json("../../"+ str(datalinks["311requests"]))
 
@@ -131,4 +122,17 @@ taxi2016 = spark.read.option("multiline","true").json("../../"+ str(datalinks["t
 taxi2016.createOrReplaceTempView("taxi2016")
 taxi2016_data = taxi2016.select(taxi2016.data).collect()
 
-## ran all 
+## Other Read
+
+crime_all = spark.read.option("multiline","true").json("../../"+ str(datalinks["crime_data"]))
+crime_all.createOrReplaceTempView("crime_all")
+crime_all_data = crime_all.select(crime_all.data).collect()
+
+vehicle_collisions = spark.read.option("multiline","true").json("../../"+ str(datalinks["vehicle_collisions"]))
+vehicle_collisions.createOrReplaceTempView("vehicle_collisions")
+vehicle_collisions_data = vehicle_collisions.select(vehicle_collisions.data).collect()
+
+### Problem with the link, on it
+citibike = spark.read.json("../../"+ str(datalinks["citibike"]))
+citibike.createOrReplaceTempView("citibike")
+citibike_data = citibike.select(citibike.data).collect()
