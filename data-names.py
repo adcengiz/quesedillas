@@ -29,7 +29,22 @@ bike_weather = spark.read.format("csv").options(header="true", inferschema="true
 bike_weather.createOrReplaceTempView("bike_weather")
 bike_weather = spark.sql("SELECT * FROM bike_weather WHERE mean_duration IS NOT NULL")
 bike_weather.createOrReplaceTempView("bike_weather")
+
+bike_weather.printSchema()
+## returns
+root
+ |-- _c0: integer (nullable = true)
+ |-- Temp: double (nullable = true)
+ |-- Spd: double (nullable = true)
+ |-- Prcp: double (nullable = true)
+ |-- day_x: timestamp (nullable = true)
+ |-- merge_date: integer (nullable = true)
+ |-- mean_duration: double (nullable = true)
+ |-- num_trips: integer (nullable = true)
+ |-- day_y: timestamp (nullable = true)
+
 bike_weather.show()
+## returns
 +---+------------------+------------------+------------------+-------------------+----------+------------------+---------+-------------------+
 |_c0|              Temp|               Spd|              Prcp|              day_x|merge_date|     mean_duration|num_trips|              day_y|
 +---+------------------+------------------+------------------+-------------------+----------+------------------+---------+-------------------+
