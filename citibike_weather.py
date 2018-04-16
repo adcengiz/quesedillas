@@ -6,24 +6,6 @@ export PYTHONHASHSEED=0
 export SPARK_YARN_USER_ENV=PYTHONHASHSEED=0
 pyspark 
 
-## Which link corresponds to which dataset
-datalinks = {"311requests": "user/bigdata/nyc_open_data/erm2-nwe9.json",\
-"citibike": "user/bigdata/nyc_open_data/vsnr-94wk.json",\
-"crime_data": "user/bigdata/nyc_open_data/qgea-i56i.json",\
-"vehicle_collisions": "user/bigdata/nyc_open_data/h9gi-nx95.json",\
-"weather2011": "user/bigdata/nyc_open_data/q39e-7gbs.json",\
-"weather2012": "user/bigdata/nyc_open_data/5gde-fmj3.json",\
-"weather2013": "user/bigdata/nyc_open_data/rgfe-8y2z.json",\
-"weather2014": "user/bigdata/nyc_open_data/jzst-u7j8.json",\
-"weather2015": "user/bigdata/nyc_open_data/hypw-js3b.json",\
-"weather2016": "user/bigdata/nyc_open_data/8u86-bviy.json",\
-"taxi2011":"user/bigdata/nyc_open_data/jr6k-xwua.json",\
-"taxi2012":"user/bigdata/nyc_open_data/fd5y-xikb.json",\
-"taxi2013":"user/bigdata/nyc_open_data/7rnv-m532.json",\
-"taxi2014":"user/bigdata/nyc_open_data/gn7m-em8n.json",\
-"taxi2015":"user/bigdata/nyc_open_data/ba8s-jw6u.json",\
-"taxi2016":"user/bigdata/nyc_open_data/k67s-dv2t.json"}
-
 ## Citibike-Weather Merge
 bike_weather = spark.read.format("csv").options(header="true", inferschema="true").load("bike_weather.csv")
 bike_weather.createOrReplaceTempView("bike_weather")
