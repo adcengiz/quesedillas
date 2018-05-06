@@ -9,14 +9,18 @@ from pyspark.sql.functions import to_date
 from pyspark.sql import SparkSession
 import sys
 
-spark = SparkSession.builder.appName("Python Spark SQL basic example").config("spark.some.config.option", "some-value").getOrCreate()
+spark = SparkSession.builder.appName("Python Spark SQL basic example").\
+config("spark.some.config.option", "some-value").getOrCreate()
 sc = spark.sparkContext
 
 ## If you will take files from a different directory 
 ## please change the corresponding paths below
-sys.argv = ["/user/adc563/weather-2011-2017.csv","/user/adc563/yellow_tripdata_2011.csv",\
-"/user/adc563/yellow_tripdata_2012.csv","/user/adc563/yellow_tripdata_2013.csv",\
-"/user/adc563/yellow_tripdata_2014.csv","/user/adc563/yellow_tripdata_2015-01-06.csv",\
+sys.argv = ["/user/adc563/weather-2011-2017.csv",\
+"/user/adc563/yellow_tripdata_2011.csv",\
+"/user/adc563/yellow_tripdata_2012.csv",\
+"/user/adc563/yellow_tripdata_2013.csv",\
+"/user/adc563/yellow_tripdata_2014.csv",\
+"/user/adc563/yellow_tripdata_2015-01-06.csv",\
 "/user/adc563/2016_Yellow_Taxi_Trip_Data.csv"]
 
 ## some pickup and dropoff dates come as string 
