@@ -1,0 +1,429 @@
+,dtw
+mean_duration_Damaged Tree,0.0125
+mean_duration_Water System,0.0135
+mean_duration_Street Sign - Damaged,0.0141
+mean_duration_Dirty Conditions,0.0143
+mean_duration_Sewer,0.0153
+Prcp_Damaged Tree,0.0227
+Prcp_Sewer,0.0228
+Prcp_Street Sign - Damaged,0.0234
+Prcp_mean_duration,0.0248
+Prcp_Water System,0.0250
+misdemeanors_Taxi Complaint,0.0298
+Prcp_Dirty Conditions,0.0299
+misdemeanors_BRONX,0.0300
+Taxi Complaint_QUEENS,0.0332
+misdemeanors_STATEN ISLAND,0.0334
+mean_duration_Traffic Signal Condition,0.0336
+Taxi Complaint_STATEN ISLAND,0.0343
+felonies_QUEENS,0.0344
+misdemeanors_passenger_vehicle,0.0350
+felonies_Taxi Complaint,0.0357
+Taxi Complaint_passenger_vehicle,0.0363
+misdemeanors_QUEENS,0.0364
+Taxi Complaint_BRONX,0.0364
+Found Property_BRONX,0.0366
+num_trips_passenger_vehicle,0.0373
+num_trips_Sanitation Condition,0.0394
+felonies_BROOKLYN,0.0395
+mean_duration_FLOORING/STAIRS,0.0396
+FLOORING/STAIRS_BRONX,0.0397
+misdemeanors_num_trips,0.0398
+num_trips_Rodent,0.0403
+Illegal Parking_passenger_vehicle,0.0404
+Found Property_STATEN ISLAND,0.0408
+felonies_MANHATTAN,0.0409
+Water System_BRONX,0.0412
+misdemeanors_Found Property,0.0415
+Prcp_Traffic Signal Condition,0.0423
+Traffic Signal Condition_BRONX,0.0426
+violations_BROOKLYN,0.0430
+Sidewalk Condition_BRONX,0.0432
+misdemeanors_PLUMBING,0.0433
+PLUMBING_BRONX,0.0435
+Dirty Conditions_BRONX,0.0436
+misdemeanors_Water System,0.0436
+violations_Sanitation Condition,0.0438
+felonies_num_trips,0.0438
+Taxi Complaint_BROOKLYN,0.0439
+felonies_STATEN ISLAND,0.0440
+num_trips_Illegal Parking,0.0442
+Sidewalk Condition_STATEN ISLAND,0.0442
+violations_MANHATTAN,0.0443
+felonies_passenger_vehicle,0.0443
+misdemeanors_Sidewalk Condition,0.0444
+felonies_Sanitation Condition,0.0446
+Spd_STATEN ISLAND,0.0447
+violations_num_trips,0.0449
+Prcp_BRONX,0.0451
+Blocked Driveway_passenger_vehicle,0.0452
+felonies_Rodent,0.0452
+Prcp_FLOORING/STAIRS,0.0452
+Taxi Complaint_MANHATTAN,0.0454
+violations_QUEENS,0.0455
+num_trips_Blocked Driveway,0.0455
+violations_Noise,0.0455
+violations_Rodent,0.0456
+Derelict Vehicles_BRONX,0.0457
+misdemeanors_FLOORING/STAIRS,0.0461
+FLOORING/STAIRS_STATEN ISLAND,0.0463
+Indoor Air Quality_STATEN ISLAND,0.0467
+num_trips_Taxi Complaint,0.0468
+PLUMBING_STATEN ISLAND,0.0468
+felonies_BRONX,0.0469
+Sanitation Condition_passenger_vehicle,0.0470
+misdemeanors_Rodent,0.0470
+Rodent_QUEENS,0.0473
+Sewer_BRONX,0.0476
+num_trips_Found Property,0.0477
+Noise - Commercial_BRONX,0.0478
+Spd_Taxi Complaint,0.0478
+felonies_For Hire Vehicle Complaint,0.0479
+Derelict Vehicles_STATEN ISLAND,0.0480
+Noise - Commercial_STATEN ISLAND,0.0481
+violations_Taxi Complaint,0.0481
+Illegal Parking_STATEN ISLAND,0.0483
+Derelict Vehicles_passenger_vehicle,0.0485
+Rodent_passenger_vehicle,0.0485
+Noise_MANHATTAN,0.0485
+For Hire Vehicle Complaint_QUEENS,0.0485
+Found Property_passenger_vehicle,0.0487
+Damaged Tree_BRONX,0.0487
+Street Sign - Damaged_BRONX,0.0489
+Noise_QUEENS,0.0490
+num_trips_Derelict Vehicles,0.0490
+Spd_Indoor Air Quality,0.0491
+num_trips_QUEENS,0.0491
+Sanitation Condition_QUEENS,0.0492
+misdemeanors_Sanitation Condition,0.0493
+Rodent_STATEN ISLAND,0.0493
+num_trips_Noise,0.0494
+Spd_Found Property,0.0496
+num_trips_STATEN ISLAND,0.0496
+Spd_BRONX,0.0498
+Noise_BROOKLYN,0.0499
+misdemeanors_Spd,0.0500
+Temp_Sanitation Condition,0.0504
+num_trips_BROOKLYN,0.0505
+Traffic Signal Condition_STATEN ISLAND,0.0507
+violations_Temp,0.0508
+BROOKLYN_taxi_count,0.0510
+misdemeanors_BROOKLYN,0.0513
+mean_duration_Noise - Residential,0.0514
+Rodent_BROOKLYN,0.0514
+Indoor Air Quality_QUEENS,0.0515
+Sanitation Condition_STATEN ISLAND,0.0515
+MANHATTAN_taxi_count,0.0515
+misdemeanors_Traffic Signal Condition,0.0516
+violations_passenger_vehicle,0.0517
+Spd_Rodent,0.0517
+felonies_Found Property,0.0518
+Rodent_MANHATTAN,0.0518
+Sanitation Condition_MANHATTAN,0.0519
+misdemeanors_Indoor Air Quality,0.0520
+Sanitation Condition_BROOKLYN,0.0520
+Blocked Driveway_QUEENS,0.0521
+Noise_passenger_vehicle,0.0521
+felonies_Indoor Air Quality,0.0522
+Spd_QUEENS,0.0525
+mean_duration_BRONX,0.0526
+num_trips_Sidewalk Condition,0.0527
+Blocked Driveway_STATEN ISLAND,0.0528
+For Hire Vehicle Complaint_MANHATTAN,0.0528
+For Hire Vehicle Complaint_STATEN ISLAND,0.0529
+felonies_Noise,0.0529
+misdemeanors_Derelict Vehicles,0.0529
+felonies_ELECTRIC,0.0530
+misdemeanors_MANHATTAN,0.0531
+Spd_Sidewalk Condition,0.0532
+Sidewalk Condition_passenger_vehicle,0.0532
+felonies_Sidewalk Condition,0.0532
+Spd_For Hire Vehicle Complaint,0.0532
+violations_Blocked Driveway,0.0533
+Spd_ELECTRIC,0.0535
+Spd_Derelict Vehicles,0.0536
+felonies_Spd,0.0537
+For Hire Vehicle Complaint_BROOKLYN,0.0538
+Spd_Noise - Commercial,0.0539
+Water System_STATEN ISLAND,0.0540
+num_trips_MANHATTAN,0.0544
+Sidewalk Condition_QUEENS,0.0546
+felonies_PLUMBING,0.0546
+Spd_Sanitation Condition,0.0546
+Blocked Driveway_BROOKLYN,0.0547
+Found Property_QUEENS,0.0547
+violations_For Hire Vehicle Complaint,0.0547
+Indoor Air Quality_BRONX,0.0548
+ELECTRIC_QUEENS,0.0550
+Rodent_BRONX,0.0551
+Blocked Driveway_MANHATTAN,0.0553
+misdemeanors_Noise,0.0554
+misdemeanors_Damaged Tree,0.0555
+Noise - Residential_BRONX,0.0555
+passenger_vehicle_taxi_count,0.0556
+misdemeanors_Street Sign - Damaged,0.0556
+Spd_PLUMBING,0.0558
+Illegal Parking_BRONX,0.0559
+Noise_STATEN ISLAND,0.0560
+ELECTRIC_STATEN ISLAND,0.0560
+Spd_Noise,0.0562
+Illegal Parking_QUEENS,0.0563
+misdemeanors_For Hire Vehicle Complaint,0.0564
+Temp_Rodent,0.0565
+PLUMBING_QUEENS,0.0567
+Spd_passenger_vehicle,0.0568
+misdemeanors_Noise - Commercial,0.0568
+misdemeanors_Dirty Conditions,0.0568
+Derelict Vehicles_QUEENS,0.0569
+mean_duration_PLUMBING,0.0570
+misdemeanors_Prcp,0.0571
+violations_Derelict Vehicles,0.0571
+Noise - Residential_STATEN ISLAND,0.0576
+violations_taxi_count,0.0579
+misdemeanors_Sewer,0.0580
+felonies_Derelict Vehicles,0.0581
+violations_STATEN ISLAND,0.0582
+Blocked Driveway_BRONX,0.0582
+num_trips_Noise - Commercial,0.0584
+Prcp_Found Property,0.0585
+Spd_FLOORING/STAIRS,0.0586
+ELECTRIC_MANHATTAN,0.0590
+Prcp_PLUMBING,0.0591
+num_trips_BRONX,0.0591
+violations_Illegal Parking,0.0592
+misdemeanors_ELECTRIC,0.0593
+Water System_QUEENS,0.0595
+Spd_num_trips,0.0595
+Indoor Air Quality_passenger_vehicle,0.0596
+Dirty Conditions_STATEN ISLAND,0.0596
+QUEENS_taxi_count,0.0596
+num_trips_PLUMBING,0.0598
+ELECTRIC_BROOKLYN,0.0599
+Spd_Noise - Residential,0.0604
+mean_duration_Found Property,0.0604
+Indoor Air Quality_MANHATTAN,0.0605
+felonies_taxi_count,0.0605
+Indoor Air Quality_BROOKLYN,0.0606
+Spd_MANHATTAN,0.0607
+PLUMBING_passenger_vehicle,0.0608
+num_trips_For Hire Vehicle Complaint,0.0609
+felonies_Water System,0.0611
+misdemeanors_Illegal Parking,0.0611
+Sanitation Condition_BRONX,0.0614
+violations_Found Property,0.0615
+violations_Indoor Air Quality,0.0616
+num_trips_Indoor Air Quality,0.0616
+violations_Spd,0.0617
+Blocked Driveway_taxi_count,0.0618
+Illegal Parking_BROOKLYN,0.0619
+Illegal Parking_MANHATTAN,0.0621
+Temp_num_trips,0.0621
+Sewer_STATEN ISLAND,0.0624
+Temp_taxi_count,0.0624
+Spd_Traffic Signal Condition,0.0624
+felonies_Temp,0.0624
+FLOORING/STAIRS_passenger_vehicle,0.0625
+Spd_BROOKLYN,0.0626
+Derelict Vehicles_BROOKLYN,0.0627
+violations_PLUMBING,0.0628
+violations_ELECTRIC,0.0631
+Temp_passenger_vehicle,0.0631
+Prcp_STATEN ISLAND,0.0633
+Street Sign - Damaged_STATEN ISLAND,0.0633
+num_trips_Water System,0.0634
+Spd_Illegal Parking,0.0634
+Noise - Commercial_passenger_vehicle,0.0635
+Prcp_Noise - Residential,0.0635
+Taxi Complaint_taxi_count,0.0636
+mean_duration_STATEN ISLAND,0.0636
+Damaged Tree_STATEN ISLAND,0.0637
+num_trips_Noise - Residential,0.0637
+num_trips_ELECTRIC,0.0637
+Spd_Blocked Driveway,0.0639
+Prcp_Taxi Complaint,0.0639
+For Hire Vehicle Complaint_passenger_vehicle,0.0640
+Noise_BRONX,0.0642
+misdemeanors_Noise - Residential,0.0642
+Temp_BROOKLYN,0.0643
+PLUMBING_MANHATTAN,0.0646
+Temp_MANHATTAN,0.0647
+mean_duration_Noise - Commercial,0.0648
+Temp_Noise,0.0649
+felonies_Blocked Driveway,0.0650
+felonies_Illegal Parking,0.0652
+Derelict Vehicles_MANHATTAN,0.0654
+violations_Sidewalk Condition,0.0655
+misdemeanors_Blocked Driveway,0.0655
+For Hire Vehicle Complaint_BRONX,0.0657
+Temp_Taxi Complaint,0.0658
+ELECTRIC_passenger_vehicle,0.0658
+Prcp_Sidewalk Condition,0.0661
+felonies_Noise - Commercial,0.0662
+Noise_taxi_count,0.0662
+violations_BRONX,0.0674
+Traffic Signal Condition_QUEENS,0.0674
+FLOORING/STAIRS_QUEENS,0.0679
+felonies_FLOORING/STAIRS,0.0680
+Found Property_MANHATTAN,0.0683
+Sidewalk Condition_BROOKLYN,0.0685
+Prcp_Derelict Vehicles,0.0686
+num_trips_Traffic Signal Condition,0.0686
+Temp_QUEENS,0.0687
+Traffic Signal Condition_passenger_vehicle,0.0689
+Found Property_BROOKLYN,0.0689
+misdemeanors_mean_duration,0.0691
+Sidewalk Condition_MANHATTAN,0.0691
+Temp_ELECTRIC,0.0691
+Prcp_Noise - Commercial,0.0692
+Illegal Parking_taxi_count,0.0697
+ELECTRIC_BRONX,0.0699
+num_trips_FLOORING/STAIRS,0.0701
+Noise - Commercial_QUEENS,0.0703
+Spd_Street Light Condition,0.0704
+PLUMBING_BROOKLYN,0.0705
+Sanitation Condition_taxi_count,0.0707
+BRONX_taxi_count,0.0709
+mean_duration_Sidewalk Condition,0.0714
+violations_Noise - Commercial,0.0717
+Prcp_QUEENS,0.0722
+Noise - Residential_passenger_vehicle,0.0726
+Rodent_taxi_count,0.0726
+Spd_Sewer,0.0729
+PLUMBING_taxi_count,0.0732
+Temp_Blocked Driveway,0.0735
+Street Light Condition_MANHATTAN,0.0740
+felonies_Noise - Residential,0.0740
+misdemeanors_taxi_count,0.0741
+felonies_Traffic Signal Condition,0.0741
+num_trips_Damaged Tree,0.0742
+Spd_Water System,0.0743
+Prcp_Illegal Parking,0.0743
+Water System_BROOKLYN,0.0744
+Water System_MANHATTAN,0.0748
+Street Light Condition_QUEENS,0.0751
+felonies_Street Light Condition,0.0753
+Noise - Commercial_MANHATTAN,0.0756
+Damaged Tree_passenger_vehicle,0.0757
+Street Light Condition_BROOKLYN,0.0758
+Derelict Vehicles_taxi_count,0.0760
+Spd_Damaged Tree,0.0765
+Water System_passenger_vehicle,0.0765
+violations_Water System,0.0767
+violations_FLOORING/STAIRS,0.0768
+Temp_Derelict Vehicles,0.0770
+Temp_Illegal Parking,0.0770
+Prcp_Blocked Driveway,0.0772
+Temp_For Hire Vehicle Complaint,0.0774
+Spd_Street Sign - Damaged,0.0775
+FLOORING/STAIRS_MANHATTAN,0.0775
+violations_Traffic Signal Condition,0.0778
+Traffic Signal Condition_MANHATTAN,0.0781
+Spd_Dirty Conditions,0.0783
+ELECTRIC_taxi_count,0.0791
+num_trips_Street Sign - Damaged,0.0794
+violations_Street Light Condition,0.0795
+Prcp_Indoor Air Quality,0.0796
+num_trips_Sewer,0.0797
+Prcp_passenger_vehicle,0.0801
+For Hire Vehicle Complaint_taxi_count,0.0804
+violations_Noise - Residential,0.0804
+Prcp_Noise,0.0805
+felonies_Sewer,0.0805
+num_trips_taxi_count,0.0806
+Temp_Indoor Air Quality,0.0810
+felonies_Prcp,0.0812
+Street Sign - Damaged_passenger_vehicle,0.0814
+Street Light Condition_STATEN ISLAND,0.0815
+Temp_STATEN ISLAND,0.0818
+FLOORING/STAIRS_taxi_count,0.0819
+Noise - Residential_QUEENS,0.0822
+mean_duration_Derelict Vehicles,0.0824
+STATEN ISLAND_taxi_count,0.0826
+felonies_Damaged Tree,0.0834
+Prcp_num_trips,0.0843
+mean_duration_Taxi Complaint,0.0843
+Noise - Residential_MANHATTAN,0.0847
+Sewer_QUEENS,0.0847
+Noise - Commercial_BROOKLYN,0.0849
+Spd_mean_duration,0.0850
+Found Property_taxi_count,0.0850
+Traffic Signal Condition_BROOKLYN,0.0851
+Prcp_MANHATTAN,0.0852
+Indoor Air Quality_taxi_count,0.0855
+Spd_taxi_count,0.0857
+Prcp_Rodent,0.0860
+misdemeanors_Street Light Condition,0.0860
+Traffic Signal Condition_taxi_count,0.0860
+felonies_Dirty Conditions,0.0865
+felonies_Street Sign - Damaged,0.0870
+mean_duration_Indoor Air Quality,0.0880
+Prcp_BROOKLYN,0.0880
+violations_Sewer,0.0881
+num_trips_Street Light Condition,0.0882
+misdemeanors_Temp,0.0895
+Sewer_passenger_vehicle,0.0897
+violations_Street Sign - Damaged,0.0900
+FLOORING/STAIRS_BROOKLYN,0.0903
+Prcp_For Hire Vehicle Complaint,0.0909
+Prcp_Sanitation Condition,0.0910
+violations_Damaged Tree,0.0913
+num_trips_Dirty Conditions,0.0919
+Temp_Found Property,0.0919
+Temp_Sidewalk Condition,0.0923
+Dirty Conditions_QUEENS,0.0927
+Sidewalk Condition_taxi_count,0.0931
+Noise - Residential_BROOKLYN,0.0936
+Noise - Commercial_taxi_count,0.0940
+Street Light Condition_passenger_vehicle,0.0949
+violations_Prcp,0.0949
+Sewer_MANHATTAN,0.0950
+Noise - Residential_taxi_count,0.0954
+Damaged Tree_QUEENS,0.0957
+Dirty Conditions_passenger_vehicle,0.0958
+Prcp_ELECTRIC,0.0960
+Temp_Noise - Commercial,0.0963
+Street Light Condition_BRONX,0.0968
+Temp_PLUMBING,0.0973
+Temp_Noise - Residential,0.0973
+Sewer_BROOKLYN,0.1004
+mean_duration_Illegal Parking,0.1015
+Damaged Tree_taxi_count,0.1015
+Temp_BRONX,0.1017
+Street Sign - Damaged_MANHATTAN,0.1018
+Temp_Street Light Condition,0.1018
+Damaged Tree_MANHATTAN,0.1018
+Street Light Condition_taxi_count,0.1021
+Dirty Conditions_MANHATTAN,0.1023
+Street Sign - Damaged_QUEENS,0.1027
+mean_duration_Rodent,0.1027
+Prcp_taxi_count,0.1063
+violations_Dirty Conditions,0.1065
+Water System_taxi_count,0.1081
+mean_duration_ELECTRIC,0.1083
+mean_duration_For Hire Vehicle Complaint,0.1104
+felonies_mean_duration,0.1110
+Damaged Tree_BROOKLYN,0.1117
+Prcp_Street Light Condition,0.1121
+Street Sign - Damaged_taxi_count,0.1135
+Temp_Water System,0.1140
+mean_duration_passenger_vehicle,0.1151
+mean_duration_Blocked Driveway,0.1155
+mean_duration_Sanitation Condition,0.1156
+mean_duration_Noise,0.1160
+Temp_FLOORING/STAIRS,0.1193
+Dirty Conditions_BROOKLYN,0.1194
+Temp_Traffic Signal Condition,0.1195
+Sewer_taxi_count,0.1224
+mean_duration_QUEENS,0.1257
+Street Sign - Damaged_BROOKLYN,0.1293
+mean_duration_Street Light Condition,0.1305
+Temp_Damaged Tree,0.1308
+Temp_Sewer,0.1354
+violations_mean_duration,0.1459
+Temp_Street Sign - Damaged,0.1527
+mean_duration_MANHATTAN,0.1550
+Dirty Conditions_taxi_count,0.1590
+mean_duration_BROOKLYN,0.1625
+Temp_Dirty Conditions,0.1661
+Temp_mean_duration,0.1838
+mean_duration_taxi_count,0.1938
