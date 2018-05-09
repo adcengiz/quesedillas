@@ -12,15 +12,10 @@ get_ipython().magic('matplotlib inline')
 get_ipython().magic('pylab inline')
 
 
-# In[72]:
 
-
-folder_dir='D:/Documentos/NYU_Projects/bigdata_data/citibike/weather-2011-2017.csv'
 
 
 # ### Bike & weather data
-
-# In[73]:
 
 
 data=pd.read_csv('bike_weather2.csv', header=0)
